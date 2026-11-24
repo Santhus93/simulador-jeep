@@ -150,7 +150,7 @@ export default function Home() {
       ? "#2e7d32"
       : alcada === "AMARELO"
       ? "#f9a825"
-      : "#6b7d3a";
+      : "#c62828";
 
   const politicaPendente = valorMinimo == null || valorMinimo <= 0;
   const podeCalcular =
@@ -242,7 +242,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="header-app">
-        <span className="badge-byd">JEEP</span>
+        <span className="badge-marca">JEEP</span>
         <h1>Simulador Comercial</h1>
       </div>
 
@@ -461,7 +461,7 @@ export default function Home() {
                         ? "#4caf50"
                         : desvioMargem >= -0.01
                         ? "#f9a825"
-                        : "#6b7d3a",
+                        : "#c62828",
                   }}
                 >
                   {desvioMargem > 0 ? "+" : ""}
